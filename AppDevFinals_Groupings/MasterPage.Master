@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="AppDevFinals_Groupings.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Sales Inventory System</title>
+    <link href="DesignCSS/StyleSheet1.css" rel="stylesheet" />
+  
+</head>
+
+<body>
+
+    <form id="form1" runat="server">
+
+        <div class="header">
+
+            <div class="logo">
+                Sales Inventory System
+            </div>
+
+            <div class="nav">
+                <a href="Home.aspx">Home</a>
+                <a href="Products.aspx">Products</a>
+                <a href="Cart.aspx">Cart</a>
+                <a href="Profile.aspx">Profile</a>
+                <a href="Login.aspx">Logout</a>
+            </div>
+
+        </div>
+
+        <div class="content">
+
+
+        </div>
+
+        <div class="footer">
+            © 2026 Sales Inventory System
+        </div>
+
+    </form>
+
+</body>
+</html>
